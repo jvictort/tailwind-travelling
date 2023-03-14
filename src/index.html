@@ -2,11 +2,30 @@
 <html lang=pt-br dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta
+    name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
     <title>Tailwind Travelling</title>
 
     <link rel="stylesheet" href="../dist/output.css">
   </head>
-  <body>
-    <h1>Primeiro commit</h1>
+  <body class="bg-gray-100">
+    <header>
+      <div class="flex flex-col items-center sm:flex-row sm:justify-between container mx-auto h-24 p-4">
+        <div>
+          <h2 class="font-bold text-xl">Tailwind <span class="text-green-600">&lt;Travelling/&gt;</span></h2>
+        </div>
+
+        <nav>
+          <ul class="flex gap-3 sm:gap-6 items-center">
+            <li><a href="#" class="text-sm text-gray-600 font-semibold hover:text-gray-800 hover:underline transition-all">Reservas</a></li>
+            <li><a href="#" class="text-sm text-gray-600 font-semibold hover:text-gray-800 hover:underline transition-all">Sobre</a></li>
+            <li><a href="#" class="text-sm text-gray-600 font-semibold hover:text-gray-800 hover:underline transition-all">Informações</a></li>
+            <li><a href="#" class="text-sm text-gray-600 font-semibold hover:text-gray-800 hover:underline transition-all">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
   </body>
 </html>
