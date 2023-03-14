@@ -9,6 +9,8 @@
     <title>Tailwind Travelling</title>
 
     <link rel="stylesheet" href="../dist/output.css">
+
+    <script src="https://kit.fontawesome.com/8825d8f512.js" crossorigin="anonymous"></script>
   </head>
   <body class="bg-gray-100">
     <header>
@@ -27,5 +29,28 @@
         </nav>
       </div>
     </header>
+
+    <main>
+      <section style="background: url('../img/hero-image.png'); height: 450px">
+        <div class="flex flex-col gap-10 items-center justify-center container mx-auto h-full p-4">
+          <div class="text-center">
+            <h1 class="text-4xl text-gray-200 mb-2">Onde você quer ir?</h1>
+            <p class="text-green-200">Escolha o estado e cidade para achar os melhores resorts.</p>
+          </div>
+
+          <form class="space-x-3">
+            <select class="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
+              <option value="">Escolha o estado</option>
+            </select>
+
+            <select class="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
+              <option value="">Escolha a cidade</option>
+            </select>
+
+            <button type="button" name="button" class="text-yellow-900 bg-yellow-600 font-medium px-3 py-2 rounded hover:bg-yellow-700 transition-all"><i class="fa-solid fa-magnifying-glass mr-1"></i> Pesquisar resorts</button>
+          </form>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
