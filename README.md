@@ -23,12 +23,16 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML
 - Tailwind CSS
 
+Além disso, utilizei como material de estudo a playlist do youtube que você pode acessar [NESTE LINK](https://www.youtube.com/playlist?list=PLcoYAcR89n-r1m-tMfV4qndrRWpT_rb9u)
+
 ## 💻 Projeto
 
 Site de agência de viagens
+
 
 ## :gear: Funcionamento
 
 Para que o projeto funcione é necessário ter um navegador que suporte as versões recentes do Tailwindcss. Vale lembrar que para o projeto eu utilizei o Tailwind na versão 3.2.7.
 
 ---
+
